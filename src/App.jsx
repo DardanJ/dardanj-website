@@ -1,4 +1,3 @@
-// src/App.jsx
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import NavBar from './components/NavBar';
 import Footer from './components/Footer';
@@ -10,24 +9,26 @@ import './App.css';
 function App() {
   return (
     <Router>
-      <NavBar />
-      <main>
-        <Routes>
-          <Route 
-          path ="/"
-          element = {
-            <>
-              <h1>Welcome to my site!</h1>
-              <button className="btn btn-primary mt-4">Click Me</button>
-            </>
-            }
-          />
-          <Route path ="/resume" element = {<Resume />} />
-          <Route path ="/projects" element = {<Projects />} />
-          <Route path ="/contact" element = {<Contact />} />
-        </Routes>
-      </main>
-      <Footer />
+      <div className="bg-[#1D1E20] flex flex-col min-h-screen text-white flex-grow">
+        <NavBar />
+        <main className = "flex-grow container mx-auto">
+          <Routes>
+            <Route
+            path ="/"
+            element = {
+              <>
+                <h1>Welcome to my site!</h1> 
+                <button className="btn btn-primary mt-4">Click Me</button>
+              </>
+              }
+            />
+            <Route path ="/resume" element = {<Resume />} />
+            <Route path ="/projects" element = {<Projects />} />
+            <Route path ="/contact" element = {<Contact />} />
+          </Routes> 
+        </main>
+        <Footer />
+      </div>
     </Router>
   );
 }

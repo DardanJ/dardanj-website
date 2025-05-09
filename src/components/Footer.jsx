@@ -1,24 +1,9 @@
-// src/components/Footer.jsx
 export default function Footer() {
-    return (
-      <footer style={{
-        marginTop: '2em',
-        padding: '1em',
-        textAlign: 'center',
-        backgroundColor: '#222',
-        color: 'white'
-      }}>
-        <p>
-          <a 
-            href="https://github.com/DardanJ" 
-            target="_blank" 
-            rel="noopener noreferrer" 
-            style={{ color: '#61dafb', marginLeft: '0.5em' }}
-          >
-            GitHub
-          </a>
-        </p>
-      </footer>
-    );
-  }
-  
+  return (
+    <nav>
+      <div className = "px-6 py-6 flex justify-center border-t border-gray-700 ">
+        <a href="https://github.com/DardanJ" className = "text-sm text-sky-400 hover:text-sky-600">GitHub</a>
+      </div>
+    </nav>
+  );
+}
