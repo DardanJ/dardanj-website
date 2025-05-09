@@ -18,7 +18,7 @@ export default function Resume() {
       <section className="mb-12">
         <h2 className="text-2xl font-semibold mb-4">Skills</h2>
         <ul className="list-disc list-inside space-y-1">
-          <li><span className="font-medium">Languages & Frameworks:</span> HTML, CSS, JavaScript, C#, PHP</li>
+          <li><span className="font-medium">Languages & Frameworks:</span> HTML, CSS, JavaScript, C#, PHP, Flutter</li>
           <li><span className="font-medium">Databases:</span> MySQL (with MySQL Workbench)</li>
           <li><span className="font-medium">Cloud Platforms:</span> AWS, Azure</li>
           <li><span className="font-medium">Tools & Technologies:</span> Git, GitHub, VS Code, React, Tailwind CSS, Figma</li>
