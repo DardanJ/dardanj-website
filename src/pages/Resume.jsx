@@ -1,8 +1,8 @@
 
 export default function Resume() {
     return (
-      <main class = "px-22 py-10 border border-gray-700 my-13 mx-60 bg-[#121213]">
-      <h1 className="text-6xl py-10 font-bold">Dardan Jerliu </h1>
+      <main className = "max-w-screen-lg mx-auto px-4 sm:px-6 md:px-12 lg:px-20 py-10 lg:my-6 lg:border border-gray-700 bg-[#121213]">
+      <h1 className = "py-10 font-bold text-3xl sm:text-4xl md:text-5xl lg:text-6xl">Dardan Jerliu </h1>
 
       {/* Summary */}
       <section className="mb-12">
