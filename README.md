@@ -3,6 +3,7 @@
 This is my personal portfolio website built with React and Vite.
 
 ### 🌐 Live Site
+
 👉 [https://dardanj.com](https://dardanj.com)
 
 ---
@@ -16,6 +17,3 @@ This website serves as my digital portfolio where you can:
 - 📬 **Contact me** via email
 
 The goal is to provide a quick, clean and focused overview of who I am and what I build.
-
-
-
