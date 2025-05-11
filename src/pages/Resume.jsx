@@ -1,22 +1,14 @@
-
 export default function Resume() {
     return (
-      <main className = "max-w-screen-lg mx-auto px-4 sm:px-6 md:px-12 lg:px-20 py-10 lg:my-6 lg:border border-gray-700 bg-[#121213]">
-      <h1 className = "py-10 font-bold text-3xl sm:text-4xl md:text-5xl lg:text-6xl">Dardan Jerliu </h1>
-
-      {/* Summary */}
-      <section className="mb-12">
-        <h2 className="text-2xl font-semibold mb-4">Summary</h2>
-        <p>
-          Enthusiastic and self-driven software developer with a strong interest in full-stack web development,
-          database design and systems administration. Eager to apply practical programming knowledge and build
-          scalable, user-friendly applications. Quick learner with a passion for clean code, problem-solving and modern tools.
-        </p>
-      </section>
+      <main className = "max-w-screen-lg mx-auto px-4 sm:px-6 md:px-12 lg:px-20 py-10 md:my-6 lg:my-6 md:border lg:border border-gray-700 bg-[#121213]">
+      <h1 className = "py-10 font-bold text-4xl sm:text-4xl md:text-5xl lg:text-6xl">Dardan Jerliu </h1>
+      <p className="text-sky-400 text-lg mb-8">
+      <a href="https://www.dardanj.com/" className="hover:underline">www.dardanj.com</a>
+      </p>
 
       {/* Skills */}
-      <section className="mb-12">
-        <h2 className="text-2xl font-semibold mb-4">Skills</h2>
+      <section className="mb-6">
+        <h2 className="text-2xl font-semibold mb-2">Skills</h2>
         <ul className="list-disc list-inside space-y-1">
           <li><span className="font-medium">Languages & Frameworks:</span> HTML, CSS, JavaScript, C#, PHP, Flutter</li>
           <li><span className="font-medium">Databases:</span> MySQL (with MySQL Workbench)</li>
@@ -24,10 +16,10 @@ export default function Resume() {
           <li><span className="font-medium">Tools & Technologies:</span> Git, GitHub, VS Code, React, Tailwind CSS, Figma</li>
         </ul>
       </section>
-
+      
       {/* Projects */}
-      <section className="mb-12">
-        <h2 className="text-2xl font-semibold mb-4">Projects</h2>
+      <section className="mb-6">
+        <h2 className="text-2xl font-semibold mb-2">Projects</h2>
         <div className="space-y-6">
           <div>
             <h3 className="text-xl font-bold">Personal Portfolio Website</h3>
@@ -55,10 +47,24 @@ export default function Resume() {
         </div>
       </section>
 
+      {/* Work Experience */}
+      <section className="mb-6">
+        <h2 className="text-2xl font-semibold mb-2">Work Experience</h2>
+        <div className="mb-6">
+          <p className="font-medium">McDonald's</p>
+          <p>Customer Service / Crew Member</p>
+          <p className="text-sm text-gray-400">2017 – 2022</p>
+        </div>
+        <div>
+          <p className="font-medium">Cotton On</p>
+          <p>Retail Assistant</p>
+          <p className="text-sm text-gray-400">2022 – 2023</p>
+        </div>
+      </section>
 
       {/* Education */}
-      <section className="mb-12">
-        <h2 className="text-2xl font-semibold mb-4">Education</h2>
+      <section className="mb-6">
+        <h2 className="text-2xl font-semibold mb-2">Education</h2>
 
         <div className="mb-6">
           <p className="font-medium">Swinburne University of Technology</p>
@@ -79,10 +85,21 @@ export default function Resume() {
         </div>
       </section>
 
+      {/* Volunteering */}
+      <section className="mb-6">
+        <h2 className="text-2xl font-semibold mb-2">Volunteering</h2>
+        <div>
+          <p className="font-medium">The Salvation Army</p>
+          <p>Volunteer – Community Support</p>
+          <p className="text-sm text-gray-400">May 2025 – Present</p>
+        </div>
+      </section>
+
 
       {/* Contact */}
       <section>
-        <h2 className="text-2xl font-semibold mb-4">Contact</h2>
+        <h2 className="text-2xl font-semibold mb-2">Contact</h2>
+        <p>Phone: (will provide in future)</p>
         <p>Email: (will provide in future)</p>
         <p>GitHub: <a href="https://github.com/DardanJ" className="text-sky-400 hover:underline">https://github.com/DardanJ</a></p>
         <p>LinkedIn: <a href="https://www.linkedin.com/in/dardan-jerliu/" className="text-sky-400 hover:underline">https://www.linkedin.com/in/dardan-jerliu/</a></p>
