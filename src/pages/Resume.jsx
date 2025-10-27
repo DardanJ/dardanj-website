@@ -16,18 +16,17 @@ export default function Resume() {
         <ul className="list-disc list-inside space-y-1">
           <li>
             <span className="font-medium">Languages & Frameworks:</span> HTML,
-            CSS, JavaScript, C#, PHP, Flutter
+            CSS, JavaScript, C#, PHP
           </li>
           <li>
-            <span className="font-medium">Databases:</span> MySQL (with MySQL
-            Workbench)
+            <span className="font-medium">Databases:</span> MySQL, MariaDB
           </li>
           <li>
             <span className="font-medium">Cloud Platforms:</span> AWS, Azure
           </li>
           <li>
             <span className="font-medium">Tools & Technologies:</span> Git,
-            GitHub, VS Code, React, Tailwind CSS, Figma
+            GitHub, VS Code, React, React Native, Tailwind CSS, Figma
           </li>
         </ul>
       </section>
